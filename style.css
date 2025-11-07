@@ -1,0 +1,123 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body {
+    background-color: #8a51fc;
+}
+
+.logo {
+    width: 200px;
+    margin: 20px auto;
+    display: block;
+
+}
+
+
+
+main {
+    width: 375px;
+    background-color: white;
+    border-radius: 25px;
+    margin: 0 auto 40px;
+    padding: 24px 24px 23px
+}
+
+label {
+    color: #777777;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+select,
+input {
+
+    background: #ffffff;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    padding-left: 18px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #555555;
+    cursor: pointer;
+
+}
+
+button {
+
+    width: 327px;
+    height: 47px;
+    border-radius: 5px;
+    background-color: #772fd3;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+
+section {
+
+    border: 1px solid #772fd3;
+    border-radius: 20px;
+    margin-top: 36px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+}
+
+.seta {
+    margin: 15px 0;
+
+}
+
+.caixa-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+
+
+.moeda, .valor-para-converter {
+    color: #555555;
+    font-size: 14px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.valor {
+    color: #555555;
+    font-size: 14px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.img-dolar {
+    position: relative;
+    left: 50px;
+}
+
+
