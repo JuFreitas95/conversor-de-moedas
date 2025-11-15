@@ -12,10 +12,10 @@ function convertvalue() {
         const valorconvertido = document.querySelector(".valor")
 
 
-        const dolartoday = 4.7
-        const eurotoday = 5.2
-        const biticointoday = 148.1
-        const libratoday = 6.1
+        const dolartoday = 5.3
+        const eurotoday = 6.16
+        const biticointoday = 509.995
+        const libratoday = 6.7
 
 
 
@@ -85,26 +85,31 @@ function changecurrency() {
 
         if (currencySelect.value == "dolar") {
 
-                currencyName.innerHTML = "Dólar americano"
+                currencyName.innerHTML = "Dólar Americano"
                 currencyImg.src = "./img/dolar.png"
+                  
         }
 
 
         if (currencySelect.value == "euro") {
 
-                currencyName.innerHTML = "euro"
+                currencyName.innerHTML = "Euro"
                 currencyImg.src = "./img/euro.png"
+                currencyImg.classList.add("euro-image");
         }
 
         if (currencySelect.value == "biticoin") {
                 currencyName.innerHTML = "Biticoin"
                 currencyImg.src = "./img/biticoin.png"
+                    currencyImg.classList.add("bitcoin-image");
+
 
         }
         
         if (currencySelect.value == "libra") {
-                currencyName.innerHTML = "libra"
+                currencyName.innerHTML = "Libra"
                 currencyImg.src = "./img/libra.png"
+                 currencyImg.classList.add("libra-image");
 
         }
 
